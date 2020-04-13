@@ -11,7 +11,7 @@ const NavBar = () => {
                     <a className="navbar-item" href="#about">
                       About
                     </a>
-                    <a className="navbar-item" href={PDF} target="_blank" rel="noopener noreferrer">
+                    <a className="navbar-item" href={PDF} target="_self" rel="noopener noreferrer">
                       Resume
                     </a>
                     <a className="navbar-item" href="#skills">
