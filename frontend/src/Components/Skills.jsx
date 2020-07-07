@@ -9,7 +9,7 @@ const Skills = () => {
           <div class="columns is-mobile">
             <div class="column is-half is-offset-one-quarter">
 
-              <div>
+              <div class="column is-full has-text-centered">
               <h1 class="title"> Skills </h1>
               </div>
 
