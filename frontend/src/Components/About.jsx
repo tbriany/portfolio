@@ -10,7 +10,6 @@ const About = () => {
                 <div class="container">
 
                     <div class="columns">
-                        {/* <div class="column is-full has-text-centered" > */}
                         <div class="column is-full has-text-centered" >                                
                                 <h1>Briany Taveras</h1>
                         </div>
