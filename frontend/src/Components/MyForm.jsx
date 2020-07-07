@@ -16,33 +16,35 @@ export default class MyForm extends React.Component {
     const { status } = this.state;
     return (
       <div class="field">
-      <form
-        onSubmit={this.submitForm}
-        action="https://formspree.io/mpzljllv"
-        method="POST"
-      >
+        <form
+          onSubmit={this.submitForm}
+          action="https://formspree.io/mpzljllv"
+          method="POST"
+        >
 
-        <div class="control has-icons-left">
-        <input class="input is-medium" type="email" placeholder="Email" name="email"/>
-        <FontAwesomeIcon icon={faEnvelope} className="icon is-left"/>
-        </div>
-        <br></br>
+          <div class="control has-icons-left">
+            <input class="input is-medium" type="email" placeholder="Email" name="email" />
+            <FontAwesomeIcon icon={faEnvelope} className="icon is-left" style={{ height: "30px", marginTop: "10px" }} />
+          </div>
+          <br></br>
 
-        <div class="field">
-        <div class="control">
-        <textarea class="textarea" placeholder="Your message" name="message"></textarea>
-        </div>
-        </div>
-        {status === "SUCCESS" ? <h2 class="subtitle"> Thanks! </h2> :
-                 <div class="field">
-                 <p class="control">
-                 <button class="button is-success">
+          <div class="field">
+            <div class="control">
+              <textarea class="textarea" placeholder="Your message" name="message"></textarea>
+            </div>
+          </div>
+          {status === "SUCCESS" ? <h2 class="subtitle"> Thanks! </h2> :
+            <div class="field">
+              <p class="control">
+                <div class="buttons is-right">
+                  <button class="button is-black">
                     Send
                  </button>
-                 </p>
-                </div> }
-        {status === "ERROR" && <p>Ooops! There was an error.</p>}
-      </form>
+                </div>
+              </p>
+            </div>}
+          {status === "ERROR" && <p>Ooops! There was an error.</p>}
+        </form>
       </div>
     );
   }

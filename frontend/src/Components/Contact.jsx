@@ -12,9 +12,11 @@ const Contact = () => {
       <div class="hero-body">
         <div class="container">
 
-          <div class="columns is-mobile">
+        <div class="columns">
             <div class="column is-half is-offset-one-quarter">
+            <div class="has-text-centered">
               <h1 class="title">Send me a message!</h1>
+            </div>
               <MyForm />
 
               <div className="contactIcons">
