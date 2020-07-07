@@ -10,44 +10,28 @@ const About = () => {
                 <div class="container">
 
                     <div class="columns">
-                        <div class="column is-4" >
-                            {/* <div class="box" style={{ color: "transparent" }} > */}
-                                <p class="title is-5" style={{ color: "#20214D" }}>Briany Taveras</p>
-                                {/* <p class="subtitle">This column is only 200px wide.</p> */}
-                            {/* </div> */}
-                        </div>
-                        <div class="column">
-                            <div class="box">
-                                <p class="title is-5">About me.........</p>
-                                {/* <p class="subtitle">This column will take up the remaining space available.</p> */}
-                            </div>
+                        <div class="column is-full has-text-centered is-size-1-mobile" >                                
+                                <h1>Briany Taveras</h1>
                         </div>
                     </div>
 
-
-                    {/* 
-                    <div class="tile is-ancestor">
-                        <div class="tile is-vertical">
-                            <div class="tile">
-                                <div class="tile is-parent">
-                                    <article class="tile is-child is-half notification is-warning ">
-                                        <p class="title">Wide tile</p>
-                                        <p class="subtitle">Aligned with the right tile</p>
-                                        <div class="content">
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="tile is-parent">
-                                    <article class="tile is-child notification is-danger">
-                                        <p class="title">Wide tile</p>
-                                        <p class="subtitle">Aligned with the right tile</p>
-                                        <div class="content">
-                                        </div>
-                                    </article>
-                                </div>
-                            </div>
+                    <div class="columns">
+                    <div class="column is-half is-offset-one-quarter">
+                                <p class="title is-5">Full Stack Web Developer</p>
+                                <p class="subtitle" style={{ color: "black" }}>
+                                  During my time in college I pursued a bachelors degree in psychology and international 
+                                  studies with a concentration in culture and communication - due to my curiousity in 
+                                  cultures from all around the world, as well as how the human mind works. 
+                                  But I realized that my curiousity wasn't limited to just those subjects; I love 
+                                  learning how things work, how to solve unique problems using creative solutions, 
+                                  and being able to build fun apps. Summer of 2019, I was accepted into a year long 
+                                  software engineering fellowship called <a href="https://www.pursuit.org/fellowship">Pursuit</a>, 
+                                  where I learned to create full stack web apps. I was able to work alongside like-minded 
+                                  individuals and collaborate on interesting projects. I'm now looking for an entry level role 
+                                  as a Software Engineer, where I can contribute using my skills and grow as a developer.
+                                </p>
                         </div>
-                    </div> */}
+                    </div>
 
                 </div>
             </div>
