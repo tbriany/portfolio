@@ -3,6 +3,134 @@ body, html {
 }
 
 .App {
-  /* text-align: center; */
   height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+
+#about h1 {
+  color: #20214D;
+  font-family: 'Playfair Display';
+  font-size: 15vw;
+  font-variant-caps: all-small-caps;
+  font-style: italic;
+}
+
+#skills h1 {
+  color: #E2FCEF;
+  font-family: 'Playfair Display';
+  font-size: 8vw;
+  font-variant-caps: all-small-caps;
+  font-style: italic;
+  margin-bottom: 5%;
+}
+
+#skills h3 {
+  color: #E2FCEF;
+  font-size: 2vw;
+  font-variant-caps: all-small-caps;
+  font-style: bold;
+  text-align: center;
+}
+
+.skillsIcons {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+
+.contactIcons {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5%;
+}
+
+#skills svg {
+  height: 12vh;
+  width: 12vw;
+}
+
+.iconClass {
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+#contact h1 {
+  color: #031927;
+  font-family: 'Playfair Display';
+  font-size: 6vw;
+  font-variant-caps: all-small-caps;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.projects {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#projects h1 {
+  color: #6D3969;
+  font-family: 'Playfair Display';
+  font-size: 8vw;
+  font-variant-caps: all-small-caps;
+  font-style: italic;
+  margin-bottom: 5%;
+}
+
+#projects h3 {
+  color: black;
+  font-style: bold;
+  font-variant-caps: small-caps;
+  font-size: 25px;
+}
+
+.project {
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  height: 300px;
+  width: 500px;
+}
+
+#projects img {
+  height: 100%;
+  width: 100%;
+}
+
+.projectHover {
+  top: 16%;
+  width: 96%;
+  height: 93%;
+  opacity: 0;
+  position: absolute;
+  transition: opacity .3s ease-in-out;
+  background-color: rgba(46, 49, 49, .9);
+}
+
+.projectHover:hover {
+  opacity: 1;
+}
+
+.projectHover p {
+  color: pink;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.projectHover a {
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.projectHover a:hover {
+  color: pink;
 }
