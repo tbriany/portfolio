@@ -134,3 +134,8 @@ body, html {
 .projectHover a:hover {
   color: pink;
 }
+
+.navbar-burger {
+  background-color: transparent;
+  border: 0;
+}

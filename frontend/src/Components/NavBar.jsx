@@ -19,11 +19,11 @@ const NavBar = () => {
     <div>
       <nav className={navColor} role="navigation" aria-label="main navigation" style={{ backgroundColor: "transparent"}}>
         <div class="navbar-brand">
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" onClick={updateNavbar}>
+          <button class="navbar-burger" aria-label="menu" aria-expanded="false" onClick={updateNavbar}>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
-          </a>
+          </button>
 
         </div>
         <div class={navbarClass}>
