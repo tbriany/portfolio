@@ -16,9 +16,8 @@ const Projects = () => {
       name: "Fashion Footprint",
       photo: require('./images/fashionfootprinthome.png'),
       description: `An app that allows brands to share their designs and styles pre-season so that consumers can vote on
-      the styles they're most likely to buy in order to prevent over-production of garments, therefore eliminating waste. 
-      App will also be used to educate consumers on how to care for their garments in an attempt to extend their lifecycle,
-      as well as educating consumers on the environmental effects of different textiles.`,
+      the styles they're most likely to buy in order to prevent over-production of garments. App also educates consumers on the 
+      environmental effects of different textiles.`,
       github: "https://github.com/AminesCodes/Fashion-Footprint",
       live: "https://fashion-fprint.herokuapp.com/"
     },
@@ -45,10 +44,8 @@ const Projects = () => {
       name: "BlackJack",
       photo: require('./images/blackjack.png'),
       description: `A game of 21 where the player plays against the computer. The goal of the game is 
-      to draw cards whose added value will be as close as possible or equal to 21. If the player picks 
-      HIT he will be dealt one more card; the player can HIT as many times as they wish.
-      When the user choses to STAY the computer draws three cards from the same deck and the added value 
-      of the cards will be compared. Whoever is closest to 21 wins.`,
+      to draw cards whose added value will be as close as possible or equal to 21.
+       Whoever is closest to 21 wins.`,
       github: "https://github.com/tbriany/21-web-game"
     },
   ]
