@@ -7,8 +7,9 @@ const Projects = () => {
       name: "Carry",
       photo: require('./images/carryproductpage.png'),
       description: `Carry is a delivery service that allows users to place orders with some of their favorite retail 
-      stores that are within the NYC boroughs. Designed with the idea that customers should be able to get any items they need, we focus on 
-      delivering their necessities / wants from retail stores in delivery times ranging from 3hrs to end-of-day.`,
+      stores that are within the NYC boroughs. We focus on delivering their necessities / wants from retail stores in 
+      delivery times ranging from 3hrs to end-of-day.`,
+      technologies: "React, PostgreSQL, CSS, Express, Material-UI, Twilio API, and Heroku",
       github: "https://github.com/tbriany/Carry",
       live: "https://pursuitcarry.herokuapp.com/"
     },
@@ -18,6 +19,7 @@ const Projects = () => {
       description: `An app that allows brands to share their designs and styles pre-season so that consumers can vote on
       the styles they're most likely to buy in order to prevent over-production of garments. App also educates consumers on the 
       environmental effects of different textiles.`,
+      technologies: "React, PostgreSQL, CSS, Express, and Bootstrap",
       github: "https://github.com/AminesCodes/Fashion-Footprint",
       live: "https://fashion-fprint.herokuapp.com/"
     },
@@ -30,6 +32,7 @@ const Projects = () => {
       description: `A social media app that encourages users to share their endless amounts of travel photos 
       and favorite foods. App allows users to interact with their friends on a responsive UI, where they can 
       share/view/like posts, and search for posts by hashtag or location.`,
+      technologies: "React, PostgreSQL, CSS, Express, and Material-UI Core",
       github: "https://github.com/vonbarown/WanderFull"
     },
     {
@@ -38,6 +41,7 @@ const Projects = () => {
       description: `A social media app created using HTML, Javascript, and CSS.
       Users can create an account, 'lurk' (follow) other users, create posts, view all users posts, and 
       create photo albums and upload photos.`,
+      technologies: "Javascript, HTML, CSS, Express, and PostgreSQL",
       github: "https://github.com/Jaiden16/SocialMediaApp"
     },
     {
@@ -46,6 +50,7 @@ const Projects = () => {
       description: `A game of 21 where the player plays against the computer. The goal of the game is 
       to draw cards whose added value will be as close as possible or equal to 21.
        Whoever is closest to 21 wins.`,
+       technologies: "Javascript, HTML, and CSS",
       github: "https://github.com/tbriany/21-web-game"
     },
   ]
@@ -58,6 +63,7 @@ const Projects = () => {
         <img src={el.photo} alt={el.name}></img>
         <div class="projectHover">
           <p>{el.description}</p>
+          <p>Technologies used: {el.technologies}</p>
           <a href={el.github}>Github</a>
           <a href={el.live}>Live</a>
         </div>
@@ -72,6 +78,7 @@ const Projects = () => {
         <img src={el.photo} alt={el.name}></img>
         <div class="projectHover">
           <p>{el.description}</p>
+          <p>Technologies used: {el.technologies}</p>
           <a href={el.github}>Github</a>
         </div>
       </div>
