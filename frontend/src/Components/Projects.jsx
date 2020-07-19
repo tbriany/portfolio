@@ -20,7 +20,7 @@ const Projects = () => {
       the styles they're most likely to buy in order to prevent over-production of garments. App also educates consumers on the 
       environmental effects of different textiles.`,
       technologies: "React, PostgreSQL, CSS, Express, and Bootstrap",
-      github: "https://github.com/AminesCodes/Fashion-Footprint",
+      github: "https://github.com/tbriany/Fashion-Footprint",
       live: "https://fashion-fprint.herokuapp.com/"
     },
   ]
@@ -33,7 +33,7 @@ const Projects = () => {
       and favorite foods. App allows users to interact with their friends on a responsive UI, where they can 
       share/view/like posts, and search for posts by hashtag or location.`,
       technologies: "React, PostgreSQL, CSS, Express, and Material-UI Core",
-      github: "https://github.com/vonbarown/WanderFull"
+      github: "https://github.com/tbriany/WanderFull"
     },
     {
       name: "Lurk",
@@ -42,7 +42,7 @@ const Projects = () => {
       Users can create an account, 'lurk' (follow) other users, create posts, view all users posts, and 
       create photo albums and upload photos.`,
       technologies: "Javascript, HTML, CSS, Express, and PostgreSQL",
-      github: "https://github.com/Jaiden16/SocialMediaApp"
+      github: "https://github.com/tbriany/Lurk"
     },
     {
       name: "BlackJack",
