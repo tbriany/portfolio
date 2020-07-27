@@ -8,7 +8,7 @@
 ![skillspage](./skillsPage.png)
 
 ## Projects Page
-![projectspage](.projectsPage.png)
+![projectspage](./projectsPage.png)
 
 ## Contact Page
 ![contactpage](./contactPage.png)
